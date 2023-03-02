@@ -5,8 +5,8 @@
 This repository contains a large collection of notes and code related to TypeScript. Some of the code was developed on my own, some with input from online videos or courses. At the end of this file you will find links to TypeScript resources.
 
 <hr>
-#### Basic TypeScript
-##### Parts 0 through 8
+<h3>Basic TypeScript</h3>
+<h6>Parts 0 through 8</h6>
 <ul>
 <li>Dev environment</li>
 <li>Type inference and annotations</li>
