@@ -1,0 +1,35 @@
+// scss-docs-start theme-color-variables
+$primary: #1c1f23 !default;
+$secondary: #65b4d8 !default;
+$success: #c4967a !default;
+$info: #365574 !default;
+$warning: #8b5a55 !default;
+// scss-docs-end theme-color-variables
+
+@import "./bootstrap/bootstrap.scss";
+
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  box-shadow: 0rem 0rem 1rem $secondary;
+  transition: 1s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
