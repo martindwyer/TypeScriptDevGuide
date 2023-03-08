@@ -70,6 +70,16 @@ This repository contains a large collection of notes and code related to TypeScr
 <li></li>
 </ul>
 <hr>
+<h3>React</h3>
+<h6>With TypeScript (Part 13.5)</h6>
+<ul>
+<li>Create React App with TypeScript</li>
+<li>Typing for functional components</li>
+<li>Typing for React hooks</li>
+<li>Typing class components</li>
+<li>Typing props of all kinds </li>
+</ul>
+<hr>
 <h3>Task Management App with React and Redux</h3>
 <h6>With TypeScript (Part 14)</h6>
 <ul>
