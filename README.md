@@ -87,4 +87,6 @@ TypeScript official <a href="https://www.typescriptlang.org/docs/">Documentation
 
 Mosh Hamedani's <a href="https://www.youtube.com/watch?v=d56mG7DezGs">TypeScript Tutorial for Beginners</a>.
 
+Code Evolution's <a href="https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK">React TypeScript Tutorial For Beginners</a>
+
 Stephen Grider's <a href="https://www.udemy.com/course/typescript-the-complete-developers-guide/">TypeScript: The Complete Developer's Guide</a>
