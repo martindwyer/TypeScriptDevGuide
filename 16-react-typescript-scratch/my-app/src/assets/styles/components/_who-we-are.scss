@@ -1,0 +1,131 @@
+#who-we-are-section {
+  padding: 4rem 2rem 4rem 2rem;
+
+  @include media-breakpoint-down(md) {
+    padding: 0rem .5rem 3rem .5rem;
+  }
+
+  div.col-md-6 {
+    height: auto;
+  }
+
+  h3 {
+    text-align: center;
+    color: $black;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+    @include media-breakpoint-down(lg) {
+      font-size: 2rem;
+    }
+
+    @include media-breakpoint-down(md) {
+      font-size: 1.25rem;
+    }
+  }
+
+
+  .advantages {
+    margin-top: 5rem;
+
+    h3 {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .overview {
+    h3 {
+      font-size: 3rem;
+      font-weight: bold;
+      padding: 0em 0em 0em 0em;
+      text-align: center;
+      color: black;
+      margin-bottom: 2rem;
+
+      @include media-breakpoint-down(lg) {
+        font-size: 3rem;
+      }
+
+      @include media-breakpoint-down(md) {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    h5 {
+      font-size: 1.5rem;
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 3rem;
+    }
+  }
+
+  #who-we-are-global {
+    margin-bottom: 3rem;
+  }
+
+  .content {
+    padding: 3rem 2rem;
+    border-radius: $borderRadius;
+    background-color: #fff;
+    @include textBoxShadow;
+    height: auto;
+
+    @include media-breakpoint-down(md) {
+      padding: 2rem 1rem;
+    }
+  }
+
+
+  .global-company-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    picture {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    img {
+      width: 70%;
+
+      margin-top: 1rem;
+      margin-bottom: 2.5rem;
+
+
+      &:hover {
+        animation: bounce;
+        animation-duration: 2s;
+      }
+
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
+    }
+  }
+
+
+  ul {
+    li {
+      margin-bottom: 1.5rem;
+      padding-left: 0.5rem;
+
+      i {
+        color: $secondary;
+        font-size: 1.5rem;
+        margin-right: 1rem;
+      }
+
+      .list-heading {
+        color: $primary;
+        font-weight: 700;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+// scss-docs-start theme-color-variables
+$primary: #1c1f23 !default;
+$secondary: #61dbfb !default;
+$success: #c4967a !default;
+$info: #365574 !default;
+$warning: #8b5a55 !default;
+
+
+// scss-docs-end theme-color-variables
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.bg-dark {
+  background-color: $primary;
+  border-color: $primary;
+}

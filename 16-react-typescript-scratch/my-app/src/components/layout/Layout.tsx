@@ -1,14 +1,22 @@
-import React from 'react';
-import { ReactNode } from 'react';
+import { Fragment, ReactNode } from 'react';
 import { Footer } from './Footer';
-import { Header } from './Header';
+import { Navbar } from './Navbar';
 
-export const Layout = (): JSX.Element => {
+import '../../assets/styles/index.scss';
+import { BackToTop } from './BackToTop';
+
+type LayoutProps = {
+  children: ReactNode;
+};
+
+export const Layout = ({ children }: LayoutProps): JSX.Element => {
+  console.log(children);
   return (
-    <React.Fragment>
-      <Header />
-      <main>{}</main>
+    <Fragment>
+      <Navbar />
+      {children}
       <Footer />
-    </React.Fragment>
+      <BackToTop />
+    </Fragment>
   );
 };

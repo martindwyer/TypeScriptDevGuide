@@ -1,0 +1,127 @@
+#leadership-section {
+    min-height: 110vh;
+    padding: 4rem 2rem 4rem 2rem;
+
+    .fa-ul {
+        @include media-breakpoint-down(md) {
+            margin-left: 0;
+
+            li i {
+                display: none;
+            }
+        }
+    }
+
+    #portfolio-image {
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            border-bottom: none;
+        }
+
+        img {
+            width: 90%;
+            box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.7);
+
+
+            @include media-breakpoint-down(lg) {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    .community-content {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        border-right: 1px solid lightgray;
+        height: auto;
+
+        @include media-breakpoint-down(md) {
+            .fa-ul {
+                margin-left: 0;
+                width: 100%;
+                padding-right: 0;
+                padding-left: 0;
+            }
+        }
+
+        ul {
+            li {
+                margin-bottom: 1.5rem;
+                padding-left: 0.5rem;
+
+                i {
+                    color: $primary;
+                    font-size: 1rem;
+                    margin-right: 1rem;
+
+                    @include media-breakpoint-down(md) {
+                        display: none;
+                    }
+                }
+
+                .list-heading {
+                    color: $primary;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+#leadership-section {
+    #founder {
+        margin-bottom: 4rem;
+        height: auto;
+        padding: 0;
+
+        h3 {
+            padding: 0;
+        }
+    }
+
+
+    .leader {
+        .martin {
+            width: 20%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        h4 {
+            color: $primary;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-weight: 700;
+            font-size: 2rem;
+        }
+
+        p {
+            img {
+                margin: 0 1.5rem 1rem 0;
+                float: left;
+                box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.7);
+            }
+        }
+
+        ul {
+            li {
+                margin-bottom: 1.5rem;
+                padding-left: 0.5rem;
+
+                i {
+                    color: $secondary;
+                    font-size: 1.5rem;
+                    margin-right: 1rem;
+                }
+
+                .list-heading {
+                    color: $primary;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

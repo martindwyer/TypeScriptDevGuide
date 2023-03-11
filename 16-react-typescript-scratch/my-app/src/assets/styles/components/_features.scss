@@ -1,0 +1,34 @@
+#features {
+  .row {
+    height: 100%;
+  }
+
+  .card {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    img {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .card-title {
+      font-size: 2rem;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .card-body {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .btn {
+        margin: 2rem auto;
+      }
+    }
+  }
+}
