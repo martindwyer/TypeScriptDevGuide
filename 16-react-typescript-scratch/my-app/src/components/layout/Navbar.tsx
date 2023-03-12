@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../../assets/images/logo.svg';
 
 export const Navbar = () => {
@@ -14,7 +15,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img
@@ -38,24 +39,29 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <NavLink
+                  id="home-link"
+                  className="nav-link"
+                  aria-current="page"
+                  to="/"
+                >
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/about">
+                <NavLink className="nav-link" aria-current="page" to="/about">
                   About
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/faq">
+                <NavLink className="nav-link" aria-current="page" to="/faq">
                   FAQ
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/contact">
+                <NavLink className="nav-link" aria-current="page" to="/contact">
                   Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
             <form

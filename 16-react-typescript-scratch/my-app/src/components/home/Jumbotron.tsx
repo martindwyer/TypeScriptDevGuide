@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../assets/images/logo.svg';
 import homePhoto from '../../assets/images/app-1.png';
+import { featuresClick } from '../features/Features';
 
 function Jumbotron() {
   return (
@@ -17,13 +18,13 @@ function Jumbotron() {
           </div>
         </div>
 
-        <a
-          href="https://reactjs.org/tutorial/tutorial.html"
+        <button
+          onClick={featuresClick}
           id="home-learn-button"
           className="jumbotron-link btn btn-primary rounded-pill"
         >
-          Learn React
-        </a>
+          Learn More
+        </button>
       </div>
       <div className="col-md-6 site-info">
         <img src={homePhoto} alt="home photo" className="img-fluid" />

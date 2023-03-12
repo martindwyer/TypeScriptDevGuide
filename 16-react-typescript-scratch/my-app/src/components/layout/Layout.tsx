@@ -4,17 +4,13 @@ import { Navbar } from './Navbar';
 
 import '../../assets/styles/index.scss';
 import { BackToTop } from './BackToTop';
+import { Outlet } from 'react-router-dom';
 
-type LayoutProps = {
-  children: ReactNode;
-};
-
-export const Layout = ({ children }: LayoutProps): JSX.Element => {
-  console.log(children);
+export const Layout = () => {
   return (
     <Fragment>
       <Navbar />
-      {children}
+      <Outlet />
       <Footer />
       <BackToTop />
     </Fragment>

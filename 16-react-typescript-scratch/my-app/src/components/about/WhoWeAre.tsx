@@ -8,7 +8,8 @@ export const WhoWeAre = () => {
     <div className="container who-we-are" id="who-we-are-section">
       <div className="overview">
         <h3 className="heading--section animate__animated animate__fadeInRightBig">
-          Global Focus&nbsp;<i className="fa-solid fa-earth-americas"></i>
+          <span className="logo-font">md</span> Web Technologies&nbsp;
+          <i className="fa-solid fa-earth-americas"></i>
         </h3>
       </div>
 

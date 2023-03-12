@@ -11,10 +11,11 @@
 
   h3 {
     text-align: center;
-    color: $black;
+    color: $dark;
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    text-shadow: .2rem .3rem .3rem rgba($success, .5);
 
     @include media-breakpoint-down(lg) {
       font-size: 2rem;
@@ -31,6 +32,7 @@
 
     h3 {
       margin-bottom: 2rem;
+      color: $success;
     }
   }
 
@@ -40,8 +42,17 @@
       font-weight: bold;
       padding: 0em 0em 0em 0em;
       text-align: center;
-      color: black;
+      color: $dark;
       margin-bottom: 2rem;
+      text-shadow: .2rem .3rem .3rem rgba($success, .5);
+
+      .logo-font {
+        font-size: 3.5rem;
+        font-weight: 800;
+        color: $secondary;
+        letter-spacing: -.15;
+        text-shadow: .2rem .3rem .3rem rgba($success, .5);
+      }
 
       @include media-breakpoint-down(lg) {
         font-size: 3rem;

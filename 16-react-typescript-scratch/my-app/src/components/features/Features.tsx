@@ -4,6 +4,11 @@ import featureOne from '../../assets/images/feature-1.png';
 import featureTwo from '../../assets/images/feature-2.png';
 import featureThree from '../../assets/images/feature-3.png';
 
+export const featuresClick = () => {
+  const features = document.querySelector('#features');
+  features?.scrollIntoView();
+};
+
 export const Features = () => {
   return (
     <div className="container-fluid features" id="features">
