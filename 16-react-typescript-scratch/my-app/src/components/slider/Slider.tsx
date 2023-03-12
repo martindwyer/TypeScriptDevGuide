@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import imageOne from '../../assets/images/slider-1.png';
-import imageTwo from '../../assets/images/slider-2.png';
-import imageThree from '../../assets/images/slider-3.png';
+import { Slides } from './Slides';
+import { slides } from './slideData';
 
 type SliderProps = {
   id: string;
@@ -15,10 +13,10 @@ export const Slider = (props: SliderProps) => {
       </div>
       <div
         id="carouselSlider"
-        className="carousel slide carousel-fade"
+        className="carousel slide"
         data-bs-ride="carousel"
         data-bs-interval="7000"
-        data-bs-pause="false"
+        data-bs-pause="true"
       >
         <div className="carousel-indicators">
           <button
@@ -43,15 +41,7 @@ export const Slider = (props: SliderProps) => {
           ></button>
         </div>
         <div className="carousel-inner" title="Click to stop auto scroll">
-          <div className="carousel-item active" data-bs-interval="7000">
-            <img src={imageOne} className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item" data-bs-interval="7000">
-            <img src={imageTwo} className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item" data-bs-interval="7000">
-            <img src={imageThree} className="d-block w-100" alt="..." />
-          </div>
+          {<Slides slides={slides} />}
         </div>
         <button
           className="carousel-control-prev"

@@ -16,6 +16,7 @@
     "localforage": "*",
     "match-sorter": "*",
     "react": "*",
+    "react-bootstrap": "^2.7.2",
     "react-dom": "*",
     "react-icons": "^4.8.0",
     "react-iframe": "*",
