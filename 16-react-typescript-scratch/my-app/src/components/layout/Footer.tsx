@@ -1,4 +1,5 @@
-import logo from '../../assets/images/logo.svg';
+import { NavLink } from "react-router-dom";
+import logo from "../../assets/images/logo.svg";
 
 export const Footer = () => {
   return (
@@ -8,7 +9,7 @@ export const Footer = () => {
           <div className="col-md-4 mb-3">
             <div className="row created-by">
               <p>
-                Created by <span className="logo-font">md</span>{' '}
+                Created by <span className="logo-font">md</span>{" "}
                 <span className="name-font">Web Technologies</span>
               </p>
             </div>
@@ -118,50 +119,45 @@ export const Footer = () => {
             <h5>Pages</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="/" className="nav-link p-0 text-white">
+                <NavLink to="/" className="nav-link p-0 text-white">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item mb-2">
-                <a href="/about" className="nav-link p-0 text-white">
+                <NavLink to="/about" className="nav-link p-0 text-white">
                   About
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item mb-2">
-                <a href="/faq" className="nav-link p-0 text-white">
+                <NavLink to="/faq" className="nav-link p-0 text-white">
                   FAQ
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item mb-2">
-                <a href="/contact" className="nav-link p-0 text-white">
+                <NavLink to="/contact" className="nav-link p-0 text-white">
                   Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
 
           <div className="col-md-2 mb-3">
-            <h5>Sites</h5>
+            <h5>Terms and Conditions</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-white">
-                  MD Web Technologies
-                </a>
+                <NavLink to="/privacy" className="nav-link p-0 text-white">
+                  Privacy Policy
+                </NavLink>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-white">
-                  MIT College
-                </a>
+                <NavLink to="/cookie" className="nav-link p-0 text-white">
+                  Cookie Policy
+                </NavLink>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-white">
-                  North Park
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-white">
-                  CC Reads
-                </a>
+                <NavLink to="/terms" className="nav-link p-0 text-white">
+                  Universal Terms of Service
+                </NavLink>
               </li>
             </ul>
           </div>
