@@ -1,5 +1,5 @@
-import React from 'react';
-import { PageHeader } from '../layout/PageHeader';
+import React from "react";
+import { PageHeader } from "../layout/PageHeader";
 
 export const FAQ = () => {
   return (
@@ -54,15 +54,15 @@ export const FAQ = () => {
                     year.
                   </li>
                   <li>
-                    Up to three hours per month for{' '}
-                    <strong>site updating</strong> and editing.{' '}
+                    Up to three hours per month for{" "}
+                    <strong>site updating</strong> and editing.{" "}
                   </li>
                 </ul>
-                See more about options and pricing at our{' '}
+                See more about options and pricing at our{" "}
                 <a href="https://www.mdbytes.com/services/catalog">
                   services catalog
-                </a>{' '}
-                .{' '}
+                </a>{" "}
+                .{" "}
               </div>
             </div>
           </div>
@@ -86,15 +86,40 @@ export const FAQ = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{' '}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                <p>
+                  While the development process for each website is customized,
+                  there are common phases of development.
+                </p>
+                <ul>
+                  <li>
+                    <strong>Information gathering</strong> where we gather as
+                    much information about your company, branding, marketing
+                    materials and digital content as possible.
+                  </li>
+                  <li>
+                    <strong>Prototyping</strong> where we develop and deliver
+                    rapid prototypes, drawings and descriptions of what your
+                    site will look and feel like when complete.
+                  </li>
+                  <li>
+                    <strong>Development</strong> when the code is being
+                    implemented based on the agreed upon prototypes.
+                  </li>
+                  <li>
+                    <strong>Delivery and review</strong>, during which your
+                    feedback and modification requests are submitted. year.
+                  </li>
+                  <li>
+                    <strong>Deployment and hosting</strong> when your finished
+                    website goes live on a web server.{" "}
+                  </li>
+                </ul>
+                You can find additional detail related to our commitments at
+                our&nbsp;
+                <a href="https://www.mdbytes.com/terms">
+                  Universal Terms of Service
+                </a>{" "}
+                .{" "}
               </div>
             </div>
           </div>
@@ -118,15 +143,11 @@ export const FAQ = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{' '}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                Typically, the development process can be completed in as little
+                as seven days but the average is between two and three weeks. We
+                will discuss timelines at the beginning of your project and be
+                clear about the information and feedback we will need from you
+                to complete your project on time.{" "}
               </div>
             </div>
           </div>
@@ -150,15 +171,14 @@ export const FAQ = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{' '}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                Simply put,{" "}
+                <strong>
+                  the website is completed when we meet the goals set at the
+                  beginning of the project.
+                </strong>{" "}
+                These goals include not just building the website, but also
+                hitting performance and SEO standards which are agreed upon in
+                advance.{" "}
               </div>
             </div>
           </div>
@@ -182,15 +202,17 @@ export const FAQ = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{' '}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                <p>
+                  The price for this website template, implemented for your
+                  needs, begins at <strong>$1,200.</strong>
+                </p>
+                <p>
+                  Please see our
+                  <a href="https://www.mdbytes.com/terms">
+                    Universal Terms of Service
+                  </a>{" "}
+                  for additional terms and conditions which apply.{" "}
+                </p>
               </div>
             </div>
           </div>
