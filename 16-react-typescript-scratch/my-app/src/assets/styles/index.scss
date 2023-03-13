@@ -1,10 +1,10 @@
 @import "../../../node_modules//animate.css/animate.min.css";
 
-@import './custom';
-@import './utils/key-frames';
-@import './utils/media-queries';
-@import './utils/mixins';
-@import './typography';
+@import "./custom";
+@import "./utils/key-frames";
+@import "./utils/media-queries";
+@import "./utils/mixins";
+@import "./typography";
 
 @import "./components/navbar";
 @import "./components/footer";
@@ -19,3 +19,5 @@
 @import "./components/who-we-are";
 @import "./components/leadership";
 @import "./components/faq";
+@import "./components/privacy";
+@import "./components/terms";

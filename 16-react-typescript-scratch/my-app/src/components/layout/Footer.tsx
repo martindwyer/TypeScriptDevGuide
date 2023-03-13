@@ -150,7 +150,7 @@ export const Footer = () => {
                 </NavLink>
               </li>
               <li className="nav-item mb-2">
-                <NavLink to="/cookie" className="nav-link p-0 text-white">
+                <NavLink to="/privacy" className="nav-link p-0 text-white">
                   Cookie Policy
                 </NavLink>
               </li>
