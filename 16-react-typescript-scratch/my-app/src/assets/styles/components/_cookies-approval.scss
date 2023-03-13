@@ -4,7 +4,7 @@
   padding: 1rem 0;
   width: 90%;
   max-width: 40rem;
-  background-color: #d9d9d9;
+  background-color: #f2f2f2;
   color: black;
   position: absolute;
   position: fixed;
@@ -20,17 +20,11 @@
 
   .cookie-link {
     border: none;
-    color: $link-color !important;
-    text-decoration: none !important;
     font-weight: 500;
-    border-bottom: 1px solid $link-color !important;
     background: none;
     margin-right: .3rem;
     margin-left: .3rem;
 
-    &:hover {
-      font-weight: 600;
-    }
   }
 
 }
@@ -52,14 +46,22 @@
 }
 
 #cookie-disclosure button {
-  background-color: #009900;
-  color: white;
+  background-color: $primary;
+  color: $secondary;
   font-weight: 800;
 
   width: 15rem;
   height: 3rem;
   border: 1px solid white;
   border-radius: $borderRadius;
+  transition: 1s;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 2rem $secondary;
+    color: $white;
+  }
+
 }
 
 @media (max-width: 992px) {

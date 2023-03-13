@@ -63,6 +63,11 @@ export const Navbar = () => {
                   Contact
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" aria-current="page" to="/privacy">
+                  Privacy
+                </NavLink>
+              </li>
             </ul>
             <form
               id="search-form"

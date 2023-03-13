@@ -12,7 +12,8 @@
     justify-content: space-between;
 
     img {
-      width: 80%;
+      width: 275px;
+      height: auto;
       margin: 0 auto;
     }
 
@@ -31,6 +32,34 @@
       .btn {
         margin: 2rem auto;
       }
+    }
+
+    .card-text {
+      font-size: 1.1rem;
+      line-height: 1.7rem;
+      text-align: justify;
+    }
+  }
+
+  .diverse-needs {
+    p {
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 3rem;
+    }
+
+    .image-holder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    img {
+      width: 80%;
+      margin-bottom: 3rem;
+      border-radius: $borderRadius;
+      box-shadow: 0 0 2rem rgba($dark, .9);
     }
   }
 }

@@ -16,17 +16,35 @@
       font-weight: 800;
       color: $secondary;
     }
+
   }
 
-  .heading {
-    text-shadow: 0.15rem 0.25rem 0.25rem $success;
+  .page-header-text {
+
+    .heading {
+      text-shadow: 0.15rem 0.25rem 0.25rem $success;
+
+      margin-right: 1rem;
+
+      @include media-breakpoint-down(xl) {
+        font-size: 2.5rem;
+      }
+    }
+
+    i {
+      margin-top: 1rem;
+      font-size: 3rem;
+      text-shadow: 0.15rem 0.25rem 0.25rem $success;
+
+      @include media-breakpoint-down(xl) {
+        font-size: 2.5rem;
+
+      }
+
+
+    }
   }
 
-  i {
-    margin-top: 1rem;
-    font-size: 3rem;
-    text-shadow: 0.15rem 0.25rem 0.25rem $success;
-  }
 
   .site-info {
     display: flex;
@@ -39,22 +57,14 @@
       img {
         margin: 0;
         padding: 0;
-        height: 10vh;
+        height: 4vh;
+
+
       }
+
+
+
     }
-  }
-
-
-  .site-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    img {
-      height: 20vh;
-      width: auto;
-    }
-
   }
 
 }

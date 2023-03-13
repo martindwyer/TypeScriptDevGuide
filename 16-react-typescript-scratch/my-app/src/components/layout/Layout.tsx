@@ -1,6 +1,7 @@
 import { Fragment, ReactNode } from 'react';
 import { Footer } from './Footer';
 import { Navbar } from './Navbar';
+import { CookiesApproval } from './CookiesApproval';
 
 import '../../assets/styles/index.scss';
 import '../../../node_modules/bootstrap/dist/js/bootstrap.bundle';
@@ -14,6 +15,7 @@ export const Layout = () => {
       <Outlet />
       <Footer />
       <BackToTop />
+      <CookiesApproval />
     </Fragment>
   );
 };

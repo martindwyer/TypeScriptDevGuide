@@ -6,7 +6,7 @@ export const CookiesApproval = () => {
   let cookieDisclosure: HTMLButtonElement | null;
 
   const cookiesApproval = () => {
-    if (window != null && cookieDisclosure) {
+    if (window !== null && cookieDisclosure) {
       cookieDisclosure.style.display = 'none';
       setCookiesApproved(true);
     }
@@ -15,13 +15,13 @@ export const CookiesApproval = () => {
   useEffect(() => {
     // Track the approval of cookies and privacy settings
     cookieDisclosure = document.querySelector('#cookie-disclosure');
-    if (document && !cookiesApproved && cookieDisclosure) {
-      setTimeout(() => {
-        if (cookieDisclosure?.style.display) {
-          cookieDisclosure.style.display = 'flex';
-        }
-      }, 2000);
-    }
+
+    setTimeout(() => {
+      console.dir(cookieDisclosure);
+      if (cookieDisclosure && !cookiesApproved) {
+        cookieDisclosure.style.display = 'flex';
+      }
+    }, 2000);
   }, [cookiesApproved]);
 
   return (

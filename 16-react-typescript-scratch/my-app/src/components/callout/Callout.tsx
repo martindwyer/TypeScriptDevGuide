@@ -1,5 +1,5 @@
 import React from 'react';
-import homePhoto from '../../assets/images/app-1.png';
+import homePhoto from '../../assets/images/Startup.png';
 
 export const Callout = () => {
   return (
@@ -21,13 +21,13 @@ export const Callout = () => {
               <span className="fa-li">
                 <i className="fa-solid fa-users"></i>
               </span>
-              User focused designed websites and applications
+              User focused websites and applications
             </li>
             <li>
               <span className="fa-li">
                 <i className="fa-solid fa-truck-fast"></i>
               </span>
-              High performance applications developed within budget and on time
+              High performance solutions developed within budget and on time
             </li>
             <li>
               <span className="fa-li">

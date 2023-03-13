@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../assets/images/logo.svg';
-import homePhoto from '../../assets/images/app-1.png';
+import homePhoto from '../../assets/images/WebDeveloper.png';
 import { featuresClick } from '../features/Features';
 
 function Jumbotron() {
@@ -28,7 +28,7 @@ function Jumbotron() {
       </div>
       <div className="col-md-6 site-info">
         <img src={homePhoto} alt="home photo" className="img-fluid" />
-        <p className="jumbo-promo">Flexible high performance website</p>
+        <p className="jumbo-promo">Customized | Optimized | Expandable.</p>
       </div>
     </div>
   );

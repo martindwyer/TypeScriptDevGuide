@@ -9,7 +9,6 @@ export const Slides = (props: SliderProps) => {
         count++;
         return (
           <div className={`carousel-item ${count === 1 ? 'active' : ''}`}>
-            <p>Slide </p>
             <img
               src={slide.image}
               className="d-block w-100"

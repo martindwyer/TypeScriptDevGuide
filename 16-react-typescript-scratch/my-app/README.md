@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# React Template
+
+<p>This repository represents that evolution of development in React and provides an efficient beginning for new websites and web applications.  Because the information represents the accumulation of knowledge learned in the open source community, for free, it is only right that this repository be shared with the public under open source license (see license attached).</p>
+
+<p>The template website provided herein has the following features</p>
+
+<ul>
+
+<li>Routing support with the latest version of React Router (v.6.9)</li>
+<li>UI support with the latest <a>Bootstrap</a> framework (v5.2).</li>
+<li>Support for animations with <a>Animate.css</a></li>
+<li>A contact form with email support from <a>Email.js</a>.  Developers and users will need to acquire their own authorization keys.</li>
+</ul>
+
+## About Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The creators of this repository have built npm packages including Webpack and Babel from scratch, but the present high quality of Create React App makes it such that scratch creation of React apps is necessary only upon rare circumstances.
+
+The packaging tool provided offers the developer the opportunity to handle a wide range of image files, Dart Sass along with a host of JSX and React features.
+
+This app is built with TypeScript as opposed to vanilla JavaScript. After years of development with vanilla JavaScript, the repository creator broadly adopted TypeScript as a way to develop large projects which are efficient and error free.
 
 ## Available Scripts
 

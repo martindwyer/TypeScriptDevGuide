@@ -2,7 +2,7 @@
   padding: 4rem 2rem 4rem 2rem;
 
   @include media-breakpoint-down(md) {
-    padding: 0rem .5rem 3rem .5rem;
+    padding: 0rem 0.5rem 3rem 0.5rem;
   }
 
   div.col-md-6 {
@@ -15,7 +15,7 @@
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    text-shadow: .2rem .3rem .3rem rgba($success, .5);
+    text-shadow: 0.2rem 0.3rem 0.3rem rgba($success, 0.5);
 
     @include media-breakpoint-down(lg) {
       font-size: 2rem;
@@ -25,7 +25,6 @@
       font-size: 1.25rem;
     }
   }
-
 
   .advantages {
     margin-top: 5rem;
@@ -43,15 +42,14 @@
       padding: 0em 0em 0em 0em;
       text-align: center;
       color: $dark;
-      margin-bottom: 2rem;
-      text-shadow: .2rem .3rem .3rem rgba($success, .5);
+      text-shadow: 0.2rem 0.3rem 0.3rem rgba($success, 0.5);
 
       .logo-font {
         font-size: 3.5rem;
         font-weight: 800;
         color: $secondary;
-        letter-spacing: -.15;
-        text-shadow: .2rem .3rem .3rem rgba($success, .5);
+        letter-spacing: -0.5rem;
+        text-shadow: 0.2rem 0.3rem 0.3rem rgba($success, 0.8);
       }
 
       @include media-breakpoint-down(lg) {
@@ -79,15 +77,57 @@
   .content {
     padding: 3rem 2rem;
     border-radius: $borderRadius;
-    background-color: #fff;
-    @include textBoxShadow;
     height: auto;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    background: transparent;
+
+    &.intro {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    img {
+      float: left;
+      width: 20%;
+      height: auto;
+      margin-right: 1rem;
+    }
+
+    .advantage-header-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .site-logo {
+        width: 20%;
+      }
+    }
+
+    .advantage {
+      height: auto;
+      margin-bottom: 3rem;
+
+      h4 {
+        text-align: center;
+        font-weight: 600;
+        text-shadow: 0.2rem 0.3rem 0.3rem rgba($success, 0.5);
+      }
+
+      img {
+        width: 50%;
+        max-width: 300px;
+        display: block;
+        margin: 0rem auto 1rem auto;
+        float: none;
+      }
+    }
 
     @include media-breakpoint-down(md) {
       padding: 2rem 1rem;
     }
   }
-
 
   .global-company-image {
     width: 100%;
@@ -96,7 +136,6 @@
     align-items: center;
     justify-content: center;
 
-
     picture {
       display: flex;
       align-items: center;
@@ -104,23 +143,29 @@
     }
 
     img {
-      width: 70%;
+      width: 80%;
 
       margin-top: 1rem;
       margin-bottom: 2.5rem;
-
 
       &:hover {
         animation: bounce;
         animation-duration: 2s;
       }
 
-      @include media-breakpoint-down(md) {
+      @include media-breakpoint-down(xl) {
+        width: 30%;
+        min-width: 250px;
+        margin: 0;
+      }
+    }
+
+    &.right {
+      @include media-breakpoint-down(xl) {
         display: none;
       }
     }
   }
-
 
   ul {
     li {

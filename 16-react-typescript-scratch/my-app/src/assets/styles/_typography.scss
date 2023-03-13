@@ -3,12 +3,13 @@ $borderRadius: 8px;
 body {
   min-height: 100vh;
   margin: 50px 0 0 0;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  background: linear-gradient(#fff, rgba($warning, 0.5));
 }
 
 p,
 a {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 h1,
@@ -17,18 +18,24 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.row,
+.card,
+.col {
+  background: transparent;
 }
 
 .logo-font {
-  font-family: 'MuseoModerno', cursive;
+  font-family: "MuseoModerno", cursive;
   font-weight: 800;
-  letter-spacing: -.2rem;
-  margin-right: .2rem;
+  letter-spacing: -0.2rem;
+  margin-right: 0.2rem;
 }
 
 .name-font {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
 }
 
@@ -44,12 +51,12 @@ h6 {
   &--section {
     font-size: 2.75rem;
     font-weight: 600;
-    text-shadow: .25rem .25rem .25rem rgba($secondary, .5);
+    text-shadow: 0.25rem 0.25rem 0.25rem rgba($secondary, 0.5);
   }
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -60,17 +67,31 @@ code {
   &:hover {
     transform: scale(1.1);
     box-shadow: 0rem 0rem 1rem $success;
-
   }
 }
 
 hr.section {
   border: 0;
   height: 4px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
 }
 
+a {
+  color: blue;
+  font-weight: 600;
+  text-underline-offset: 0.35rem;
+  transition: 500ms;
 
+  &:hover {
+    color: $success;
+    font-weight: 700;
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .site-logo {
